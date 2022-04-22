@@ -5,11 +5,12 @@
 	"homepage": "https://codeigniter.com",
 	"license": "MIT",
 	"require": {
-		"php": ">=7.2",
+		"php": ">=7.3|^8.0",
 		"codeigniter4/framework": "^4",
-		"fzaninotto/faker": "^1.9"
+		"myth/auth": "^1.0"
 	},
 	"require-dev": {
+		"fzaninotto/faker": "^1.9@dev",
 		"mikey179/vfsstream": "1.6.*",
 		"phpunit/phpunit": "^8.5"
 	},
